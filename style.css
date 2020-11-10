@@ -1,0 +1,13 @@
+#header{
+    position: relative;
+    z-index: 0;
+
+}
+#card1{
+    position: absolute;
+width: 320px;
+height: 349px;
+left: 672px;
+top: -40px;
+z-index: 1;
+}

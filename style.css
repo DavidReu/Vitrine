@@ -173,3 +173,62 @@ a:active {
 #mail{
     border-radius: 10px;
 }
+
+
+@media all and (max-width:590px){
+    .lead{
+        font-size: 10px;
+    }
+
+    .card{
+        height: 200px;
+        width: 100%;
+        transform: none;
+    }
+    .card:hover{
+        transform: none;
+    }
+    .card-img-top{
+        height: 150px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+    .card-body{
+        padding: 0;
+        height: 60px;
+    }
+    .card-title{
+        font-size: 10%;
+    }
+
+    #titre-produit{
+        width: 100%;
+        height: 100px;
+    }
+
+    #presentation{
+        position: relative;
+        height: 400px;
+        width: 100%;
+        font-size: 10px;
+    }
+    #qui{
+        width: 150px;
+        height: 230px;
+    }
+
+    .container-fluid{
+        height: auto;
+        width: auto;
+    }
+
+    button{
+        width: 40px;
+        height: 20px;
+        font-size: 2%;
+    }
+}

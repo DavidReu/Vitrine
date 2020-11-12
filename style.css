@@ -1,13 +1,18 @@
-#header{
-    position: relative;
-    z-index: 0;
 
+.jumbotron {
+    background-color: transparent;
 }
-#card1{
-    position: absolute;
-width: 320px;
-height: 349px;
-left: 672px;
-top: -40px;
-z-index: 1;
+
+#logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.card-img-top{
+    height: 250px;
+}
+
+header{
+  background: url(media/fond-header.jpg);
 }

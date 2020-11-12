@@ -20,135 +20,127 @@
 
 <body>
     <!----------------------header ---------------------------------->
-    <header class="container-fluid">
-        <div id="header" class="row bg-info" style=" height: 520px;">
-            <h1>header</h1>
+    <header class="container-fluid bg-info" style="height: 520px;">
+       
+
+                    <!-----------------------------Navbar------------------------------->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#"><img id="logo" src="./images/logo.jpg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item text-white">
+                        <a class="nav-link text-dark" href="#">Produits</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-dark" href="#">
+                            Presentation
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="form-inline my-2 my-lg-0">
+                    <div class="text-dark">Téléphone : 01-02-03-04-05</div>
+                </div>
+            </div>
+        </nav>
+        <!----------------------------jumbotron-------------------------------------->
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container text-center text-dark">
+                <h1 class="display-4">Nouveau produit</h1>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus laboriosam sit
+                    consequatur, suscipit voluptatibus facere necessitatibus ullam repudiandae tempora nam ut vitae
+                    praesentium sint autem illum expedita, consectetur quidem laborum?
+                </p>
+            </div>
         </div>
+            
+        
     </header>
 
-    <!---------------------CARD ------------------------------------>
+    <!----------------------------------Produits------------------------------>
 
-    <div class="container-fluid" style=" height: 200px;">
+    <section class="container-fluid">
+        <!---------------------CARD ------------------------------------>
 
-        <div id="image" class="row  d-flex justify-content-around">
+        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" style=" height: 200px;">
 
-
-            <div style="margin-top: -7rem;">
-                <div class="col-3 card" id="card1">
-                    <img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.png" class="card-img-top"
-                        alt="Accroche HTML">
+            <div id="cards" class="row row-cols-lg-4 row-cols-1 justify-content-center"
+                style="position: relative; top: -8rem;">
+                <div class="col card">
+                    <img src="media/img2.jpg" class="card-img-top" alt="Accroche HTML">
                     <div class="card-body">
                         <h2 class="card-title">Titre</h2>
-                        <h3 class="card-subtitle">Sous titre</h3>
-                        <p class="card-text">Du texte sous le titre dans le corps de carte</p>
-                        <a href="#" class="btn btn-primary">Un lien</a>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
+                            cupiditate
+                            molestias officia! Similique neque veniam vitae expedita odit incidunt, laudantium labore
+                            iusto,
+                            fuga quaerat dolorem delectus fugit facilis, nulla voluptatum.</p>
+                    </div>
+                </div>
+
+                <!-------------------------------------------->
+
+
+                <div class="col card">
+                    <img src="media/img3.jpg" class="card-img-top" alt="Accroche HTML">
+                    <div class="card-body">
+                        <h2 class="card-title">Titre</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto non dolore
+                            nulla
+                            id, itaque expedita voluptatem quos temporibus, corrupti nemo suscipit maxime deleniti
+                            voluptates nesciunt tempore ex aut inventore hic.</p>
+                    </div>
+                </div>
+
+                <!---------------------------------------------->
+
+
+                <div class="col card">
+                    <img src="media/img4.jpg" class="card-img-top" alt="Accroche HTML">
+                    <div class="card-body">
+                        <h2 class="card-title">Titre</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore
+                            exercitationem quia numquam facere perspiciatis nulla blanditiis illum sunt, quis modi
+                            molestiae. Quod voluptate soluta omnis repellat qui nam doloremque?</p>
                     </div>
                 </div>
             </div>
 
-            <!-------------------------------------------->
-
-            <!--            
-            <div class="col-3 card" style="">
-                <img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.png" class="card-img-top" alt="Accroche HTML">
-                <div class="card-body">
-                    <h2 class="card-title">Titre</h2>
-                    <h3 class="card-subtitle">Sous titre</h3>
-                    <p class="card-text">Du texte sous le titre dans le corps de carte</p>
-                    <a href="#" class="btn btn-primary">Un lien</a>
-                </div>
-            </div> -->
-
-            <!---------------------------------------------->
-
-
-            <!-- <div class="col-3 card" style="">
-                <img src="https://www.w3.org/html/logo/downloads/HTML5_sticker.png" class="card-img-top" alt="Accroche HTML">
-                <div class="card-body">
-                    <h2 class="card-title">Titre</h2>
-                    <h3 class="card-subtitle">Sous titre</h3>
-                    <p class="card-text">Du texte sous le titre dans le corps de carte</p>
-                    <a href="#" class="btn btn-primary">Un lien</a>
-                </div>
-            </div>
+        </div>
         
-    </div> -->
+        <!------------------- Section titre et texte ------------------>
 
-            <!------------------- Section titre et texte ------------------>
-
-            <div class="container-fluid" style="height: 512px">
+        <div data-aos="fade-up" class="container-fluid bg-info" style="height: 512px; top: 12rem; position: relative;">
 
 
-
-                <section class=" row bg-success d-flex justify-content-center " style="height: 230px;">
-                    <div class=" col-8 align-self-center">
-                        <h2 class=" text-center">Titre</h2>
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse aut
-                            asperiores quia ducimus repellat
-                            quam? Incidunt quod quos delectus, reiciendis ex est, deleniti dolorum tempora nisi
-                            molestias minus
-                            magni!</p>
-                    </div>
-                </section>
-
-            </div>
-
-            <!----------------------------------Formulaire -------------------->
-
-            <div class="container-fluid">
-                <div class="row " style="height: 406px;">
-
-                    <section class="col-8 bg-warning d-flex justify-content-center align-items-center ">
-
-                        <div style="height: 400px; width: 400px;" class="bg-secondary ">
-                            <h2 class="text-center"> Formulaire</h2>
-                        </div>
-
-
-
-                    </section>
-                    <section class="col-4 bg-danger"></section>
-
-
+            <section class="row-cols-1 justify-content-center " style="height: 230px;">
+                <div class="col align-self-center">
+                    <h2 class=" text-center">Titre</h2>
+                    <p class="text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sit, ab non enim provident
+                        necessitatibus quibusdam harum libero! Molestias officia nemo ut eum praesentium vel corporis
+                        dolorem porro ab sequi.
+                    </p>
                 </div>
-            </div>
+            </section>
 
-            <!------------------------- Carousel  ---------------------------------------->
+        </div>
+    </section>
 
-            <div class="container-fluid">
-                <div class="row bg-info" style="height: 311px; ">
-                    <div class="col-4 bg-danger ">
-                        <h2 class="text-center"> Titre</h2>
-                        <p class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                            consectetur est quis quas repellendus
-                            iusto at deleniti velit id ut. Incidunt ratione libero blanditiis ut voluptatem. Unde ipsa
-                            obcaecati
-                            deserunt.</p>
-                    </div>
 
-                    <div class="col-8 bg-dark"></div>
-
-                </div>
-            </div>
-
-            <!------------------------Carte ------------------------------------------------->
-
-            <div class="container-fluid">
-                <div class="row bg-info" style="height: 311px;">
-
-                    <div class="col-4 bg-info"></div>
-                    <div class="col-4 bg-success"></div>
-                    <div class="col-4 bg-warning"></div>
-                </div>
-            </div>
-
-            <!----------------------------Footer ------------------------------------->
-
-            <div class="container-fluid">
-                <div class="row bg-dark" style="height: 90px;">
-
-                </div>
-            </div>
+    
+           
 
 
 

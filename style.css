@@ -1,4 +1,6 @@
-
+html, body{
+    width: 100%;
+}
 .jumbotron {
     background-color: transparent;
 }
@@ -15,4 +17,10 @@
 
 header{
   background: url(media/fond-header.jpg);
+}
+
+#qui{
+    height: 350px;
+    width: 450px;
+    padding: auto;
 }

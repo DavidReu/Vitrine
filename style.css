@@ -16,3 +16,9 @@
 header{
   background: url(media/fond-header.jpg);
 }
+/* 
+@media all and (max-device-width: 480px)
+{
+    /* Vos règles CSS pour les mobiles ici */
+    
+} */

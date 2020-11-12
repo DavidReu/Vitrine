@@ -15,6 +15,20 @@ html, body{
     height: 250px;
 }
 
+.card{
+	transform: scale(1,1);
+    transform: scale(1,1);
+    transform: scale(1,1);
+    transition-duration: 1.5s;
+}
+.card:hover{
+
+    transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);transition-duration: 1.5s;
+    z-index: 1;
+}
+
 header{
   background: linear-gradient(transparent, rgba(0,0,0,1)), url(media/fond-header.jpg) center;}
   
